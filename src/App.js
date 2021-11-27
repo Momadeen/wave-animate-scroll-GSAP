@@ -84,6 +84,18 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <a
+        style={{ fontSize: "50px", fontWeight: 600 }}
+        href="https://github.com/Momadeen/wave-animate-scroll-GSAP"
+      >
+        Hassanien
+      </a>
+      <a
+        style={{ fontSize: "50px", fontWeight: 600, display: 'block' }}
+        href="https://github.com/Momadeen/wave-animate-scroll-GSAP"
+      >
+        https://github.com/Momadeen/wave-animate-scroll-GSAP
+      </a>
       <svg
         className="shape-overlays"
         viewBox="0 0 100 100"
